@@ -5,6 +5,7 @@ const swiper = new Swiper(".swiper", {
   slidesPerView: "auto",
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
   scrollbar: {
     el: ".swiper-scrollbar",
